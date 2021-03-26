@@ -1,0 +1,21 @@
+.logo-box{
+    display:flex;
+    flex-direction:row;
+}
+
+.logo{
+    width:5%;
+    height: 5%;
+}
+
+.logo-box{
+    text-decoration:none; 
+    color:white;
+    font-family: 'Asap', sans-serif;
+}
+
+.logo-title{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size:1.6rem
+}

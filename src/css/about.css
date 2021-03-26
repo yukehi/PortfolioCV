@@ -1,0 +1,10 @@
+.background-about{
+    background-color: #ffb224;
+    background-image: linear-gradient(to bottom, #ffb224, #ffb734, #febc42, #fec04f, #fec55b);
+    height: 100%;
+    
+}
+
+.table{
+    margin: 5% 0 5% 0 ;
+}

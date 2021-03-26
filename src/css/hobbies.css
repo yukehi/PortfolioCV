@@ -1,0 +1,39 @@
+.background-hobbies{
+    background-color: #41cf41;
+    background-image: linear-gradient(to bottom, #41cf41, #4bd04b, #54d054, #5cd15c, #64d164);
+}
+
+.grid-container-hobbies {
+    text-align: center;
+    margin:5% 15% 5% 15%;
+    color:white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "v v-contant"
+      "b-contant b"
+      "c c-contant"
+      "d-contant d";
+  }
+  .v { grid-area: v; }
+  .v-contant { 
+      grid-area: v-contant;
+      background-color: #6edb6e;
+     }
+  .b { grid-area: b; }
+  .b-contant { 
+      grid-area: b-contant;
+      background-color: #6edb6e;
+     }
+  .c { grid-area: c; }
+  .c-contant { 
+      grid-area: c-contant; 
+      background-color: #6edb6e;
+    }
+  .d { grid-area: d; }
+  .d-contant {
+       grid-area: d-contant; 
+       background-color: #6edb6e;
+    }

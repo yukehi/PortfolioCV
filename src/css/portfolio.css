@@ -1,0 +1,39 @@
+.background-portfolio{
+    background-color: #f33232;
+    
+}
+
+.upper-table{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+.table-portfolio{
+    margin:5% 0 5% 0;
+}
+
+.grid-container-portfolio {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "body btn-box";
+  }
+.body { grid-area: body; }
+.btn-box {
+       grid-area: btn-box; 
+        padding: 5%;
+    }
+
+.btn{
+    border-radius:150px;
+    
+}
+
+.link-box{
+    margin-left: 50%;
+}
+

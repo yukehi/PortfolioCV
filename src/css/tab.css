@@ -1,0 +1,40 @@
+.avater{
+    width:50%;
+    height: auto;
+    border-radius:150px;
+}
+.avater:hover{
+    transform: scale(1.35)
+}
+.link-home{
+    text-decoration:none;
+    color:white;
+    height:50vh;
+    font-family: 'Asap', sans-serif;
+  
+
+}
+
+a:hover{
+    color:white;
+    /* transform: scale(0.95); */
+}
+
+.img-info{
+    margin-top:5vh;
+}
+.contant-info{
+    margin-top:5vh;
+    text-align:center;
+}
+
+
+
+
+
+.bottom-tab{
+    
+
+
+    
+}

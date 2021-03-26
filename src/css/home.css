@@ -1,0 +1,60 @@
+.background {
+    height: 100%;
+    background-color: #303030;
+}
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+.background-home{
+    background-color: white;
+}
+.grid-container {
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+}
+.tab{
+    padding:5%; 
+    text-align:center; 
+    height:100%;
+    width:auto;
+    display:block;
+}
+.tab-no{
+    padding:5%; 
+    text-align:center; 
+    height:100%;
+    width:auto;
+    display:block;
+}
+.tab:hover{
+    background-color:#333333;
+}
+.hover:hover{
+    
+    color:white;
+    transform:scale(0.95)
+}
+.home { 
+    background-color: #d2e432;
+    }
+.about { 
+    background-color: #ffb224;
+    }
+.portfolio { 
+    background-color: #f33232;
+}
+.hobbies { 
+    background-color: #41cf41;
+    }
+.contact { 
+    background-color: #3ef3b7;
+    }
+.experimental { 
+    background-color: #b21ecf;
+}
+

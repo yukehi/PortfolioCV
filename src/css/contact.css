@@ -1,0 +1,55 @@
+.background-contact{
+    background-color: #3ef3b7;
+    background-image: linear-gradient(to bottom, #3ef3b7, #49f4bb, #53f5be, #5cf5c2, #64f6c5);
+}
+
+.card-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.mail:active{
+    transform:scale(1.2)
+}
+
+.mail:hover{
+    color: #333333;
+}
+
+.linkin:active{
+    transform:scale(1.2)
+}
+
+.linkin:hover{
+    color: #333333;
+}
+
+.github:active{
+    transform:scale(1.2)
+}
+
+.github:hover{
+    color: #333333;
+}
+
+hr{
+    color:white;
+}
+
+.btn-outline-light:hover{
+    color: #333333;
+    
+}
+
+.btn-text{
+    margin-top:5%;
+
+}
+.btn-box-contact{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+}
