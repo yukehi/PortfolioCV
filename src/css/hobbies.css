@@ -1,39 +1,52 @@
 .background-hobbies{
     background-color: #41cf41;
-    background-image: linear-gradient(to bottom, #41cf41, #4bd04b, #54d054, #5cd15c, #64d164);
+    
 }
 
 .grid-container-hobbies {
+    height: 100%;
     text-align: center;
     margin:5% 15% 5% 15%;
     color:white;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto;
     gap: 0px 0px;
     grid-template-areas:
       "v v-contant"
-      "b-contant b"
+      "b-contant h"
       "c c-contant"
       "d-contant d";
   }
-  .v { grid-area: v; }
-  .v-contant { 
+.v {
+       grid-area: v;
+      
+      }
+
+.v-contant { 
       grid-area: v-contant;
       background-color: #6edb6e;
+      border: 2px outset #6edb6e;
      }
-  .b { grid-area: b; }
-  .b-contant { 
+.h { grid-area: h; }
+.b-contant { 
       grid-area: b-contant;
       background-color: #6edb6e;
+      border: 2px outset #6edb6e;
      }
-  .c { grid-area: c; }
-  .c-contant { 
+.c { grid-area: c; }
+.c-contant { 
       grid-area: c-contant; 
       background-color: #6edb6e;
+      border: 2px outset #6edb6e;
     }
-  .d { grid-area: d; }
-  .d-contant {
+.d { grid-area: d; }
+.d-contant {
        grid-area: d-contant; 
        background-color: #6edb6e;
+       border: 2px outset #6edb6e;
     }
+
+.img-scale{
+  width: 100%;
+}

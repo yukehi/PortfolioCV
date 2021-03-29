@@ -6,7 +6,7 @@ import About from '../images/About.png';
 import Portfolio from '../images/portfilo.png';
 import Houbbis from '../images/Hobbis.png';
 import Contact from '../images/Conact.png'
-import Lern from '../images/Lern.png';
+import Learn from '../images/Lern.png';
 import '../css/fx.css';
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
     }, []);
     return(
         <div className='dashbord '>
-        <div class="grid-container">
+        <div className="grid-container">
         <Tab
                     img={profile}
                     mainTitle='Aleksey Zgeria'
@@ -52,10 +52,10 @@ const Home = () => {
                     tab='hover'
                 />
      </div>
-     <div class="grid-container">
+     <div className="grid-container">
         <Tab
                     img={Houbbis}
-                    mainTitle='Hobbies'
+                    mainTitle='Interests'
                     body='Check my other skills'
                     bottomTitle=''
                     bottomBody=''
@@ -74,9 +74,9 @@ const Home = () => {
                     tab='hover'
                 />
         <Tab
-                    img={Lern}
-                    mainTitle='Learn from every experience'
-                    body=''
+                    img={Learn}
+                    mainTitle='Quote'
+                    body='"Learn from every experience"'
                     bottomTitle=''
                     bottomBody=''
                     to='/'

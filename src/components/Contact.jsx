@@ -22,7 +22,7 @@ const Contact = () => {
     <Menu/>
     <Body
             mainTitle='Hello'
-            upperUnderTitle='i will be Happy to collaboration'
+            upperUnderTitle='i will be Happy to collaborate'
             midContant='if you just starting your website or app ,i will be glud to work toghter,you can contact me throw the fllowing'
         />
         <hr/>

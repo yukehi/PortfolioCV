@@ -11,31 +11,30 @@ import '../css/fx.css';
 
 const Portfolio = () => {
     const body = [
-        {name:'Repeat Application'
-        ,body:'this took from me allot of afford',
-        url:'https://itsrepeat.com/',type:'web aplliction',
-        title:'',
+        {name:'Repeat'
+        ,body:' that shows the emotional attitude regarding the content you upload,it was challenged to map and build the model for the emotions to the colors, in each choice of color and emotion there is a back calculation that "predicts" the emotion you feel towards the same content, even when the user responds to the content he affects the initial emotion of the content thus creating the content to be dynamic.',
+        url:'https://itsrepeat.com/',type:'web application',
+        title:'social platform',Languages:'Html-Css-Javascript-React-Express-Mongodb',
         },
         {name:'Emotional Calculator'
-        ,body:'this took me alot',
+        ,body:"By using color and emotion I analyzed the emotion that a person feels in the present moment, by choosing color and emotion he gets an answer to what he is feeling right now, my curiosity led me to check and research about how emotion affects each other with color, I based on Robert Fluchik's research , But unfortunately his theory was not proven I found other sources and was able to run the model, of course it is not based on in-depth research and is still in the stage of theory.",
         url:'https://hidden-falls-58987.herokuapp.com/',
-        type:'web aplliction',title:'',
+        type:'web application',title:'Calculates the emotion you feel',Languages:'Html-Css-Javascript-React-Express',
         },
-        {name:'To do list',body:'this is',
+        {name:'To do list',body:'In creating the application, I used Express for the first time, there was a difficulty in starting the integration between the database, after several attempts I was able to create the connection and save the data, you can create new lists and save the lists, by entering a new name in the html line.',
         url:'https://salty-tundra-05974.herokuapp.com/',
-        type:'web aplliction',title:'',
+        type:'web application',title:'Stick to your tasks',Languages:'Html-Css-Javascript-Express-Mongodb',
         },
-        {name:'Rock,Paper,Scissors',
-        body:'this was hard',
+        {name:'RPSSL',
+        body:'The first time I built the game used as a static site, but after learning react, I rebuilt it according to the programming principles in react, the game has five possibilities for combat, and of course a board of rules describing who wins whom, I really enjoyed building it, enjoy.',
         url:'https://mysterious-shore-92890.herokuapp.com/',
-        type:'web aplliction',title:'',
+        type:'web application',title:'A modern game of stone and paper and scissors',Languages:'Html-Css-Javascript-React-Express',
         },
         {name:'Simon Game',
-        body:'this was hard',
+        body:'Building the game I really enjoyed, connecting the sounds and creating a design functionality that will let the user more easily remember the pattern displayed in the game.',
         url:'https://evening-taiga-70436.herokuapp.com/',
-        type:'web aplliction',title:'',
+        type:'web application',title:'A retro game of our childhood',Languages:'Html-Css-Javascript-React-Express'
         },
-        {name:'',body:'',url:'',type:'web aplliction',title:'',}
         ]
 
     useEffect(() => {
@@ -49,9 +48,9 @@ const Portfolio = () => {
     return(<div className='container'>
         <Menu/>
         <Body
-            mainTitle='Portfolio'
-            upperUnderTitle='this was a long journey'
-            midContant='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum rhoncus justo in blandit. Nunc ut auctor tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis in odio sit amet nisi rhoncus pretium sit amet quis tortor. Cras volutpat quam ex, id placerat lectus vestibulum vitae. Praesent ut dictum quam. Nulla ut nibh ipsum. Vestibulum vel purus accumsan, sagittis tortor quis, consequat velit. Etiam in ullamcorper tortor, vitae tempus felis. Quisque sagittis semper volutpat. Pellentesque pretium enim massa, vitae maximus augue dapibus ac. Nulla sagittis lorem non odio interdum suscipit. Praesent porttitor magna quis.'
+            mainTitle='Journey'
+            upperUnderTitle=' begins with a simple problem and progresses into idea'
+            midContant='While studying, I learned the basics of programming, client structure and back end, at first I built a simple and static client then I came up with more ideas, and I had to learn more tools to implement my ideas, from building a static site I progressed to API building, to my apps, Making an integration between the client and the back end, thus filling myself with the full picture of website development, a complex and interesting process that gave me an opportunity to experience the fullness of the development, I relied mainly on self-thinking and examples I found.'
         />
         <div className="table-portfolio fadeIn">
         {body.map((contant, i) => {
@@ -62,6 +61,7 @@ const Portfolio = () => {
                 body={contant.body}
                 link={contant.url}
                 key={i}
+                Languages={contant.Languages}
             />
         })}
             

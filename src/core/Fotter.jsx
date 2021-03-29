@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from './Logo';
 import '../css/fotter.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';

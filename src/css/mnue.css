@@ -1,10 +1,134 @@
 .nav{
     flex-wrap: nowrap;
 }
-.a{
+.menu-box{
+    display:flex;
+}
+.j{
     margin-top:5%;
 }
 
 .b{
     margin-top:5%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu{
+        transform:scale(0.6);
+        width:100%;
+        
+    }
+    .j{
+       width: 50vh;
+       margin-top:8%; 
+       
+    }
+    .b{
+        margin-left: 15%;
+    }
+    .menu-box{
+        width:50vh;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .menu{
+        transform:scale(1.0);
+        width:100%;
+        
+    }
+    .j{
+       width: 50vh;
+       margin-top:7%; 
+       margin-left: 15%;
+    }
+    .b{
+        margin-left: 40%;
+    }
+    .menu-box{
+        width:50vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu{
+        transform:scale(1.0);
+        width:100%;
+        
+    }
+    .j{
+       width: 50vh;
+       margin-top:7%; 
+       margin-left: 8%;
+    }
+    .b{
+        margin-left: 40%;
+    }
+    .menu-box{
+        width:50vh;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu{
+        transform:scale(1.0);
+        width:100%;
+        
+    }
+    .j{
+       width: 50vh;
+       margin-top:7%; 
+       margin-left: 15%;
+    }
+    .b{
+        margin-left: 40%;
+    }
+    .menu-box{
+        width:50vh;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu{
+        transform:scale(1.0);
+        width:100%;
+        
+    }
+    .j{
+       width: 50vh;
+       margin-top:7%; 
+       margin-left: 15%;
+    }
+    .b{
+        margin-left: 40%;
+    }
+    .menu-box{
+        width:50vh;
+        margin:0 60vh 0 auto ;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .menu{
+        transform:scale(1.0);
+        width:100%;
+        
+    }
+    .j{
+       width: 50vh;
+       margin-top:7%; 
+       margin-left: 25%;
+    }
+    .b{
+        margin-left: 45%;
+    }
+    .menu-box{
+        width:50vh;
+        margin:0 70vh 0 auto ;
+    }
 }

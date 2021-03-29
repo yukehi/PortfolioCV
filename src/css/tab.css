@@ -28,13 +28,67 @@ a:hover{
     text-align:center;
 }
 
+.title-tab{
+    font-size:4rem;
+}
+.body-tab{
+    font-size:2rem;
+}
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title-tab{
+        font-size:2rem;
+    }
+    .body-tab{
+        font-size:1.0rem;
+    }
+}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .title-tab{
+        font-size:2rem;
+    }
+    .body-tab{
+        font-size:1.0rem;
+    }
+}
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .title-tab{
+        font-size:2rem;
+    }
+    .body-tab{
+        font-size:1.0rem;
+    }
+}
 
-.bottom-tab{
-    
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .title-tab{
+        font-size:2.5rem;
+    }
+    .body-tab{
+        font-size:1.5rem;
+    }
+}
 
-
-    
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .title-tab{
+        font-size:2.5rem;
+    }
+    .body-tab{
+        font-size:1.5rem;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .title-tab{
+        font-size:2.5rem;
+    }
+    .body-tab{
+        font-size:1.5rem;
+    }
 }

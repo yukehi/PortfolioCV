@@ -10,7 +10,7 @@ import List from '@material-ui/core/List';
 import ListItemText from '@material-ui/core/ListItemText';
 import '../css/fx.css';
 import { makeStyles } from '@material-ui/core/styles';
-
+import Seed from '../images/Seed.png';
 const useStyles = makeStyles({
     root: {
       minWidth: 275,
@@ -22,11 +22,11 @@ const useStyles = makeStyles({
     },
     title: {
       fontSize: 25,
-      fontFamily: 'Odibee Sans',
+      fontFamily: 'Maven Pro',
     },
     body:{
         fontSize: 18,
-        fontFamily: 'Big Shoulders Display',
+        fontFamily: 'Cantarell',
     }
     
   });
@@ -48,11 +48,13 @@ const About = () => {
     }, []);
     return(<div className='container'>
         <Menu/>
+        
         <Body
-            mainTitle='About Me'
-            upperUnderTitle='this was a long journey'
-            midContant='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum rhoncus justo in blandit. Nunc ut auctor tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis in odio sit amet nisi rhoncus pretium sit amet quis tortor. Cras volutpat quam ex, id placerat lectus vestibulum vitae. Praesent ut dictum quam. Nulla ut nibh ipsum. Vestibulum vel purus accumsan, sagittis tortor quis, consequat velit. Etiam in ullamcorper tortor, vitae tempus felis. Quisque sagittis semper volutpat. Pellentesque pretium enim massa, vitae maximus augue dapibus ac. Nulla sagittis lorem non odio interdum suscipit. Praesent porttitor magna quis.'
+            mainTitle='The Root'
+            upperUnderTitle='reason why I started with programming'
+            midContant='Five months ago I made a decision to study programming, I was told that learning programming would be difficult for me because of my dyslexia and attention deficit disorder, but after I started soon I fell in love with code writing and development, from initial ideas to application, it was not easy at all. In self learning. Obviously it is impossible to learn everything in such a short time, but I was able to establish the initial skills, and mastering some of the latest technologies, my conclusion regarding programming is that anyone can learn it, but must be aware that learning never ends.'
         />
+        <div className='img-seed'><img className='seed' src={Seed} alt="Seed"/></div>
         <div className="table fadeIn">
            <Card className={classes.root} variant="outlined">
            <CardContent>
@@ -60,10 +62,7 @@ const About = () => {
             Philosophy
             </Typography>
             <Typography className={classes.body}>
-            Every problem, possible to solve,
-             we need only the right minds to solve
-            , the basic values of collaboration is of 
-            course creativity between minds 
+            Everything is possible to solve, all we need is the right minds, and the creative collaboration between them, and the ability of self-learning 
             </Typography>
             
             
@@ -73,14 +72,13 @@ const About = () => {
            <Card className={classes.root} variant="outlined">
            <CardContent>
             <Typography className={classes.title}>
-            Skills
+            Languages
             </Typography>
             <List>
-                <ListItemText primary="Drafts"/>
-                <ListItemText primary="Drafts"/>
-                <ListItemText primary="Drafts"/>
-                <ListItemText primary="Drafts"/>
-                <ListItemText primary="Drafts"/>
+                <ListItemText primary="Html"/>
+                <ListItemText primary="Css"/>
+                <ListItemText primary="Javascript"/>
+                <ListItemText primary="Python"/>
             </List>
             
            </CardContent>
@@ -92,11 +90,11 @@ const About = () => {
             Framework
             </Typography>
             <List>
-                <ListItemText primary="Drafts"/>
-                <ListItemText primary="Drafts"/>
-                <ListItemText primary="Drafts"/>
-                <ListItemText primary="Drafts"/>
-                <ListItemText primary="Drafts"/>
+                <ListItemText primary="Node/Express"/>
+                <ListItemText primary="React"/>
+                <ListItemText primary="Bootstrap"/>
+                <ListItemText primary="Material-ui "/>
+                <ListItemText primary="Git"/>
             </List>
             
            </CardContent>

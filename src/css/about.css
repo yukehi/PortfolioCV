@@ -1,10 +1,139 @@
+html{
+    height: 100%;
+}
+
 .background-about{
     background-color: #ffb224;
-    background-image: linear-gradient(to bottom, #ffb224, #ffb734, #febc42, #fec04f, #fec55b);
+    
     height: 100%;
     
 }
 
 .table{
     margin: 5% 0 5% 0 ;
+}
+
+.img-seed{
+    position: relative;
+    right:80px;
+    transform: scaleX(-1);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (max-height: 900px ) {
+    .main-title{
+        font-size:3rem;
+    }
+    .table{
+        display:flex;
+        flex-direction:column;
+    }
+    .img-seed{
+        width:25vh;
+        height:auto;
+        left: 19vh;
+    }
+    .seed{
+        width:40vh;
+        height: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (min-height: 600px ) {
+    .main-title{
+        font-size:5rem;
+    }
+    .table{
+        display:flex;
+        flex-direction:column;
+    }
+    .img-seed{
+        width:25vh;
+        height:auto;
+        left: 40vh;
+    }
+    .seed{
+        width:60vh;
+        height: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (min-height: 1000px ){
+    .main-title{
+        font-size:5rem;
+    }
+    .table{
+        display:flex;
+        flex-direction:column;
+    }
+    .img-seed{
+        width:25vh;
+        height:auto;
+        left: 40vh;
+    }
+    .seed{
+        width:60vh;
+        height: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (min-height: 1000px ) {
+    .main-title{
+        font-size:5rem;
+    }
+    .table{
+        display:flex;
+        flex-direction:column;
+    }
+    .img-seed{
+        width:25vh;
+        height:auto;
+        left: 40vh;
+    }
+    .seed{
+        width:60vh;
+        height: auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (min-height: 800px ) {
+    .main-title{
+        font-size:5rem;
+    }
+    .table{
+        display:flex;
+        flex-direction:row;
+    }
+    .img-seed{
+        width:25vh;
+        height:auto;
+        left: 95vh;
+    }
+    .seed{
+        width:100vh;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 1440px) and (min-height: 1200px ){
+    .main-title{
+        font-size:5rem;
+    }
+    .table{
+        display:flex;
+        flex-direction:row;
+    }
+    .img-seed{
+        width:25vh;
+        height:auto;
+        left: 60vh;
+    }
+    .seed{
+        width:100vh;
+        height: auto;
+    }
 }

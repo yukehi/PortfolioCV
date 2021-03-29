@@ -4,24 +4,20 @@
     color:white;
 }
 
-.main-title-box{
-    
-}
+
 .main-title{
     font-size:12rem;
     
 }
 .bold{
-    font-family: 'Odibee Sans', cursive;
-}
-.body-style{
-    font-family: 'Big Shoulders Display', cursive;
-}
-
-.upper-body{
+    font-family: 'Maven Pro', sans-serif;
     
 }
+.body-style{
+    font-family: 'Cantarell', sans-serif;
+}
+
 
 .under-title{
-    font-size:4rem;
+    font-size:2.5rem;
 }

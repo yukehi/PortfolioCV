@@ -40,7 +40,7 @@ body{
     transform:scale(0.95)
 }
 .home { 
-    background-color: #d2e432;
+    background-color: #e4e132;
     }
 .about { 
     background-color: #ffb224;
@@ -52,9 +52,41 @@ body{
     background-color: #41cf41;
     }
 .contact { 
-    background-color: #3ef3b7;
+    background-color: #1dd698;
     }
 .experimental { 
     background-color: #b21ecf;
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display:flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+@media only screen and (min-width: 1440px) {
+   
+}

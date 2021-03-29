@@ -25,3 +25,45 @@
     flex-direction: row;
     justify-content: center
 }
+
+@media only screen and (max-width: 600px) and (min-height: 600px ) {
+    .icons{
+        padding:0% 0% 0% 15% ;
+    }
+    .logo-title{
+        font-size:1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .icons{
+        padding:0% 0% 5% 15% ;
+    }
+    .logo-title{
+        font-size:1rem;
+    }
+ }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .icons{
+        padding:0% 0% 5% 30% ;
+    }
+    .logo-title{
+        font-size:1rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .icons{
+        padding:0% 0% 5% 30% ;
+    }
+    .logo-title{
+        font-size:1rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

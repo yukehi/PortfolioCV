@@ -16,11 +16,23 @@ const useStyles = makeStyles({
     },
     title: {
       fontSize: 25,
-      fontFamily: 'Odibee Sans',
+      fontFamily: 'Maven Pro',
+      '@media (max-width:600px)':{
+        fontSize: 20,
+      },
+      '@media (min-width:600px)':{
+        fontSize: 25,
+      }
     },
     body:{
         fontSize: 18,
-        fontFamily: 'Big Shoulders Display',
+        fontFamily: 'Cantarell',
+        '@media (max-width:600px)':{
+          fontSize: 15,
+        },
+        '@media (min-width:600px)':{
+          fontSize: 22,
+        }
     }
     
   });
@@ -46,11 +58,14 @@ const Table = (props) => {
          <hr/>
      <div className='grid-container-portfolio'>
          <div className='body'>
-             <Typography className={classes.title}>
+             <Typography  className={classes.title}>
               {props.Title}
              </Typography>
              <Typography className={classes.body}>
              {props.body}
+             </Typography>
+             <Typography className={classes.title}>
+             {props.Languages}
              </Typography>
          </div>
          <div className='btn-box'>
