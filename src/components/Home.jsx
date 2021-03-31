@@ -8,23 +8,24 @@ import Houbbis from '../images/Hobbis.png';
 import Contact from '../images/Conact.png'
 import Learn from '../images/Lern.png';
 import '../css/fx.css';
-
+// import {Link} from 'react-router-dom';
 const Home = () => {
     useEffect(() => {
         document.body.classList.add('background-home')
+        document.body.classList.add('fadeIn')
         return () => {
             document.body.classList.remove('background-home');
+            document.body.classList.remove('fadeIn');
         };
     }, []);
     return(
         <div className='dashbord '>
         <div className="grid-container">
+        
         <Tab
                     img={profile}
                     mainTitle='Aleksey Zgeria'
                     body='Web Developer'
-                    bottomTitle='Home'
-                    bottomBody='wellcom to my site'
                     to=''
                     tabClass='home tab-no'
                     tab=''
@@ -34,8 +35,6 @@ const Home = () => {
                     img={About}
                     mainTitle='About'
                     body='Shattering the status quo.'
-                    bottomTitle=''
-                    bottomBody=''
                     to='/about'
                     tabClass='about tab'
                     className='tab'
@@ -45,8 +44,6 @@ const Home = () => {
                     img={Portfolio}
                     mainTitle='Portfolio'
                     body='From idea to app, it’s all here.'
-                    bottomTitle=''
-                    bottomBody=''
                     to='/portfolio'
                     tabClass='portfolio tab'
                     tab='hover'
@@ -57,8 +54,6 @@ const Home = () => {
                     img={Houbbis}
                     mainTitle='Interests'
                     body='Check my other skills'
-                    bottomTitle=''
-                    bottomBody=''
                     to='/hobbies'
                     tabClass='hobbies tab'
                     tab='hover'
@@ -67,8 +62,6 @@ const Home = () => {
                     img={Contact}
                     mainTitle='Contact'
                     body='Ready to make something special? Me too!'
-                    bottomTitle=''
-                    bottomBody=''
                     to='/contact'
                     tabClass='contact tab'
                     tab='hover'
@@ -77,8 +70,6 @@ const Home = () => {
                     img={Learn}
                     mainTitle='Quote'
                     body='"Learn from every experience"'
-                    bottomTitle=''
-                    bottomBody=''
                     to='/'
                     tabClass='experimental tab-no'
                     tab=''

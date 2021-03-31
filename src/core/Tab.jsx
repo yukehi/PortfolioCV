@@ -16,11 +16,7 @@ const Tab = (props) => {
                 <h2 className='body-tab body-style'>{props.body}</h2>
                 </div>
                 <hr/>
-                {/* <div className='bottom-tab'>
-                    <h4>{props.bottomTitle}</h4>
-                    <hr/>
-                    <h4>{props.bottomBody}</h4>
-                </div> */}
+                
     </div>
     </Link>
     )

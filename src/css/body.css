@@ -1,12 +1,12 @@
 .container-body{
-    margin:5% 15% 0 15%;
-    text-align:center;
+    margin:5vh 8vh 0 8vh;
+    text-align:left;
     color:white;
 }
 
 
 .main-title{
-    font-size:12rem;
+    font-size:20vw;
     
 }
 .bold{
@@ -17,7 +17,47 @@
     font-family: 'Cantarell', sans-serif;
 }
 
+.contant{
+    font-size:5vw;
+}
 
 .under-title{
-    font-size:2.5rem;
+    font-size:5vw;
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
+@media only screen and (min-width: 375px) {
+   
+}
+
+@media only screen and (min-width: 414px) {
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
+@media only screen and (min-width: 1800px) {
 }

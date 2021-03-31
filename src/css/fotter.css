@@ -4,21 +4,21 @@
     flex-direction: row;
     color: white;
     justify-content: center;
-    margin:5% 0 5% 0;
+    margin:5vh 0 5vh 0;
 }
 
 .copyright{
-    height:15%;
-    width:50%;
+    height:15vh;
+    width:30vh;
 }
 .icons{
-    height:15%;
-    width:50%;
-    padding:0 0 0 40%;
+    height:15vh;
+    width:30vh;
+    padding:0 0 0 40vh;
 }
 .icon{
     color:white;
-    margin-left:3%;
+    margin-left:1vh;
 }
 .table{
     display:flex;
@@ -26,42 +26,42 @@
     justify-content: center
 }
 
-@media only screen and (max-width: 600px) and (min-height: 600px ) {
+@media only screen and (max-width: 600px){
     .icons{
-        padding:0% 0% 0% 15% ;
+        padding:0% 0% 0% 4vh ;
     }
     .logo-title{
-        font-size:1rem;
+        font-size:3vh;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .icons{
-        padding:0% 0% 5% 15% ;
+        padding:0% 0% 0% 4vh ;
     }
     .logo-title{
-        font-size:1rem;
+        font-size:3vh;
     }
  }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .icons{
-        padding:0% 0% 5% 30% ;
+        padding:0% 0% 2vh 12vh ;
     }
     .logo-title{
-        font-size:1rem;
+        font-size:2vh;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .icons{
-        padding:0% 0% 5% 30% ;
+        padding:0% 0% 2vh 12vh ;
     }
     .logo-title{
-        font-size:1rem;
+        font-size:1.5vh;
     }
 }
 

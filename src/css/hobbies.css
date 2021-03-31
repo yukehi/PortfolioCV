@@ -6,10 +6,10 @@
 .grid-container-hobbies {
     height: 100%;
     text-align: center;
-    margin:5% 15% 5% 15%;
+    margin:2vh 10vh 2vh 10vh;
     color:white;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
     gap: 0px 0px;
     grid-template-areas:

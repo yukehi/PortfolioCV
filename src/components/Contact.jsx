@@ -27,9 +27,9 @@ const Contact = () => {
         />
         <hr/>
     <div className='card-box'>
-        <div className='icon mail' ><a className='icon mail' href='mailto:3124surf@gmail.com'><MailOutlineIcon style={{ fontSize: 60 }}/></a></div>
-        <div className='icon linkin' ><a className='icon linkin' href='https://www.linkedin.com/in/aleksey-zgeria/'><LinkedInIcon style={{ fontSize: 60 }}/></a></div>
-        <div className='icon github'><a className='icon github' href='https://github.com/yukehi'><GitHubIcon style={{ fontSize: 60 }}/></a></div>
+        <div className='icon mail' ><a className='icon mail' href='mailto:3124surf@gmail.com'><MailOutlineIcon style={{ fontSize: '8vh' }}/></a></div>
+        <div className='icon linkin' ><a className='icon linkin' href='https://www.linkedin.com/in/aleksey-zgeria/'><LinkedInIcon style={{ fontSize: '8vh' }}/></a></div>
+        <div className='icon github'><a className='icon github' href='https://github.com/yukehi'><GitHubIcon style={{ fontSize: '8vh' }}/></a></div>
     </div>
         <hr/>
         <div className='btn-box-contact'>

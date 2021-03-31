@@ -1,7 +1,7 @@
 .avater{
-    width:50%;
+    width:15vh;
     height: auto;
-    border-radius:150px;
+    border-radius:150vh;
 }
 .avater:hover{
     transform: scale(1.35)
@@ -11,7 +11,7 @@
     color:white;
     height:50vh;
     font-family: 'Asap', sans-serif;
-  
+    width: 60vh;
 
 }
 
@@ -29,66 +29,66 @@ a:hover{
 }
 
 .title-tab{
-    font-size:4rem;
+    font-size:5vh;
 }
 .body-tab{
-    font-size:2rem;
+    font-size:4vh;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .title-tab{
-        font-size:2rem;
+        font-size:4vh;
     }
     .body-tab{
-        font-size:1.0rem;
+        font-size:3vh;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .title-tab{
-        font-size:2rem;
+        font-size:4vh;
     }
     .body-tab{
-        font-size:1.0rem;
+        font-size:3vh;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .title-tab{
-        font-size:2rem;
+        font-size:3vh;
     }
     .body-tab{
-        font-size:1.0rem;
+        font-size:1.5vh;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .title-tab{
-        font-size:2.5rem;
+        font-size:3vh;
     }
     .body-tab{
-        font-size:1.5rem;
+        font-size:1.5vh
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .title-tab{
-        font-size:2.5rem;
+        font-size:4vh;
     }
     .body-tab{
-        font-size:1.5rem;
+        font-size:2.5vh;
     }
 }
 @media only screen and (min-width: 1440px) {
     .title-tab{
-        font-size:2.5rem;
+        font-size:4vh;
     }
     .body-tab{
-        font-size:1.5rem;
+        font-size:2.5vh;
     }
 }

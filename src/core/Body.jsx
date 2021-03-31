@@ -9,7 +9,7 @@ const Body = (props) => {
         <h2 className='bold under-title fadeIn'>{props.upperUnderTitle}</h2>   
     </div>
     <div className='mid-body'>
-        <h3 className='body-style fadeIn'>{props.midContant}</h3>
+        <h3 className='body-style contant fadeIn'>{props.midContant}</h3>
     </div>
 </div>)
 }

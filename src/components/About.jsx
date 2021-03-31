@@ -50,7 +50,7 @@ const About = () => {
         <Menu/>
         
         <Body
-            mainTitle='The Root'
+            mainTitle='Root'
             upperUnderTitle='reason why I started with programming'
             midContant='Five months ago I made a decision to study programming, I was told that learning programming would be difficult for me because of my dyslexia and attention deficit disorder, but after I started soon I fell in love with code writing and development, from initial ideas to application, it was not easy at all. In self learning. Obviously it is impossible to learn everything in such a short time, but I was able to establish the initial skills, and mastering some of the latest technologies, my conclusion regarding programming is that anyone can learn it, but must be aware that learning never ends.'
         />
