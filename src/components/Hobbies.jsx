@@ -27,11 +27,12 @@ const Hobbies = () => {
     <div className="grid-container-hobbies fadeIn">
         <div className="v p-5"><img className='img-scale' src={Game} alt='video games'/></div>
         <div className="v-contant p-5">
-        <h4>Little Nightmares</h4>
-        <h4>Call of duty</h4>
-        <h4>League of Legends</h4>
-        <h4>Forestpunk</h4>
-        <h4>Pacman</h4>
+        <h1 className='bold'>Video games</h1>
+        <h4 className='body-style'>Little Nightmares</h4>
+        <h4 className='body-style'>Call of duty</h4>
+        <h4 className='body-style'>League of Legends</h4>
+        <h4 className='body-style'>Forestpunk</h4>
+        <h4 className='body-style'>Pacman</h4>
         </div>
         <div className="h p-5"><img className='img-scale' src={Paint} alt='paint'/></div>
         <div className="b-contant p-5"><h2>Lorem</h2></div>

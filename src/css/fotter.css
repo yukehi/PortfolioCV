@@ -4,12 +4,12 @@
     flex-direction: row;
     color: white;
     justify-content: center;
-    margin:5vh 0 5vh 0;
+    margin:5vw 2vw 5vw 2vw;
 }
 
 .copyright{
     height:15vh;
-    width:30vh;
+    width:40vh;
 }
 .icons{
     height:15vh;
@@ -26,31 +26,39 @@
     justify-content: center
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 375px){
     .icons{
-        padding:0% 0% 0% 4vh ;
+        padding:0% 0% 0% 12vw ;
     }
-    .logo-title{
-        font-size:3vh;
+    .logo-copyright{
+        font-size:2vh;
     }
 }
-
+@media only screen and (min-width: 393px) {
+    .icons{
+        padding:0% 0% 0% 8vw ;
+    }
+    .logo-copyright{
+        font-size:2vh;
+    }
+ }
+ 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .icons{
-        padding:0% 0% 0% 4vh ;
+        padding:0% 0% 0% 4vw ;
     }
-    .logo-title{
-        font-size:3vh;
+    .logo-copyright{
+        font-size:2vh;
     }
  }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .icons{
-        padding:0% 0% 2vh 12vh ;
+        padding:0% 0% 2vh 24vw ;
     }
-    .logo-title{
+    .logo-copyright{
         font-size:2vh;
     }
 }
@@ -58,12 +66,22 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .icons{
-        padding:0% 0% 2vh 12vh ;
+        padding:0% 0% 2vh 25vw ;
     }
-    .logo-title{
+    .logo-copyright{
         font-size:1.5vh;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .icons{
+        padding:0% 0% 2vh 10vw ;
+    }
+    .logo-copyright{
+        font-size:1.85vh;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    
+}

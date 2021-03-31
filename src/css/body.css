@@ -1,13 +1,7 @@
 .container-body{
-    margin:5vh 8vh 0 8vh;
+    margin:1vw 8vw 0 8vw;
     text-align:left;
     color:white;
-}
-
-
-.main-title{
-    font-size:20vw;
-    
 }
 .bold{
     font-family: 'Maven Pro', sans-serif;
@@ -17,47 +11,144 @@
     font-family: 'Cantarell', sans-serif;
 }
 
+.main-title{
+    font-size:8vw;
+    
+}
 .contant{
-    font-size:5vw;
+    font-size:2vw;
 }
 
 .under-title{
-    font-size:5vw;
+    font-size:3vw;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
+    .main-title{
+        font-size:12vw;
+        
+    }
+    .under-title{
+        font-size:5vw;
+    }
+    .contant{
+        font-size:4.267vw;
+    }
+    .container-body{
+        margin:1vw 8vw 0 8vw;
+        text-align:left;
+        color:white;
+    }
     
 }
-@media only screen and (min-width: 375px) {
-   
-}
 
-@media only screen and (min-width: 414px) {
-   
+
+@media only screen and (min-width: 393px) {
+    .main-title{
+        font-size:12vw;
+        
+    }
+    .under-title{
+        font-size:6vw;
+    }
+    .contant{
+        font-size:4.267vw;
+    }
+    .container-body{
+        margin:1vw 8vw 0 8vw;
+        text-align:left;
+        color:white;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    .main-title{
+        font-size:12vw;
+        
+    }
+    .under-title{
+        font-size:6vw;
+    }
+    .contant{
+        font-size:4.267vw;
+    }
+    .container-body{
+        margin:1vw 8vw 0 8vw;
+        text-align:left;
+        color:white;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .main-title{
+        font-size:12vw;
+        
+    }
+    .under-title{
+        font-size:6vw;
+    }
+    .contant{
+        font-size:4.267vw;
+    }
+    .container-body{
+        margin:1vw 8vw 0 8vw;
+        text-align:left;
+        color:white;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    .main-title{
+        font-size:12vw;
+        
+    }
+    .under-title{
+        font-size:6vw;
+    }
+    .contant{
+        font-size:4.267vw;
+    }
+    .container-body{
+        margin:1vw 8vw 0 8vw;
+        text-align:left;
+        color:white;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    .main-title{
+        font-size:8vw;
+        
+    }
+    .under-title{
+        font-size:4vw;
+    }
+    .contant{
+        font-size:2.267vw;
+    }
+    .container-body{
+        margin:1vw 8vw 0 8vw;
+        text-align:left;
+        color:white;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
-
+    .container-body{
+        margin:1vw 8vw 0 8vw;
+        text-align:left;
+        color:white;
+    }
 }
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 2560px) {
+    .container-body{
+        margin:1vw 1vw 0 1vw;
+        text-align:left;
+        color:white;
+    }
 }

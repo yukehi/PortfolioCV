@@ -15,29 +15,52 @@ const useStyles = makeStyles({
     root: {
       minWidth: 275,
       backgroundColor:'transparent',
-      margin:'0 3% 0 3%',
+      margin:'1vw 1vw 0 1vw',
       color:'white',
-      border:' 2px outset white',
+      border:' 2px solid white',
+      
       
     },
     title: {
-      fontSize: 25,
+      fontSize: '5vw',
       fontFamily: 'Maven Pro',
+      '@media (max-width:600px)':{
+        fontSize: '5vw',
+      },
+      '@media (min-width:600px)':{
+        fontSize: '2.539vw',
+      },
+      '@media (min-width:1200px)':{
+        fontSize: '2vw',
+      },
+      '@media (min-width:2560px)':{
+        fontSize: '1.5vw',
+      }
     },
     body:{
-        fontSize: 18,
+        fontSize: '4.2vw',
         fontFamily: 'Cantarell',
-    }
+        '@media (max-width:600px)':{
+        fontSize: '5vw',
+      },
+      '@media (min-width:600px)':{
+        fontSize: '2.539vw',
+      },
+      '@media (min-width:1200px)':{
+        fontSize: '1.539vw',
+      },
+      '@media (min-width:2560px)':{
+        fontSize: '1.2vw',
+      }
+    },
     
   });
-
 
 
   
 
 const About = () => {
     const classes = useStyles();
-
     useEffect(() => {
         document.body.classList.add('background-about')
         document.body.classList.add('fadeIn')
@@ -75,10 +98,15 @@ const About = () => {
             Languages
             </Typography>
             <List>
-                <ListItemText primary="Html"/>
-                <ListItemText primary="Css"/>
-                <ListItemText primary="Javascript"/>
-                <ListItemText primary="Python"/>
+            <Typography className={classes.body}>
+            Html
+            </Typography>
+            <Typography className={classes.body}>
+            Css
+            </Typography>
+            <Typography className={classes.body}>
+            Javascript
+            </Typography>
             </List>
             
            </CardContent>
@@ -89,12 +117,22 @@ const About = () => {
             <Typography className={classes.title}>
             Framework
             </Typography>
-            <List>
-                <ListItemText primary="Node/Express"/>
-                <ListItemText primary="React"/>
-                <ListItemText primary="Bootstrap"/>
-                <ListItemText primary="Material-ui "/>
-                <ListItemText primary="Git"/>
+            <List >
+            <Typography className={classes.body}>
+            Node/Express
+            </Typography>
+            <Typography className={classes.body}>
+            React
+            </Typography>
+            <Typography className={classes.body}>
+            Bootstrap
+            </Typography>
+            <Typography className={classes.body}>
+            Material-ui
+            </Typography>
+            <Typography className={classes.body}>
+            Git
+            </Typography>
             </List>
             
            </CardContent>
