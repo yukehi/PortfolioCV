@@ -22,7 +22,7 @@ const Home = () => {
     return(<>
         <div className='dashbord '>
         <div className="grid-container">
-            <Link className='link-home home tab-no fadeIn' to=''>
+            <Link className='link-home home tab fadeIn' to=''>
                 <Tab
                     img={profile}
                     mainTitle='Aleksey Zgeria'
@@ -30,7 +30,7 @@ const Home = () => {
                     tabClass='tab-no'
                 />
             </Link>
-            <Link className='link-home about tab hover fadeIn' to='/about'>
+            <Link className='link-home about tab tab-hover fadeIn' to='/about'>
                 <Tab
                     img={About}
                     mainTitle='About'
@@ -38,7 +38,7 @@ const Home = () => {
                     tabClass='tab'
                 />
             </Link>
-            <Link className='link-home portfolio hover tab fadeIn' to='/portfolio'>       
+            <Link className='link-home portfolio tab-hover tab fadeIn' to='/portfolio'>       
                 <Tab
                     img={Portfolio}
                     mainTitle='Portfolio'
@@ -46,9 +46,8 @@ const Home = () => {
                     tabClass='tab'
                 />
             </Link> 
-     </div>
-     <div className="grid-container">
-            <Link className='link-home hobbies hover tab fadeIn' to='/hobbies'>
+     
+            <Link className='link-home hobbies tab-hover tab fadeIn' to='/hobbies'>
                 <Tab
                     img={Houbbis}
                     mainTitle='Interests'
@@ -56,15 +55,15 @@ const Home = () => {
                     tabClass='tab'
                 />
             </Link>
-            <Link className='link-home contact hover tab fadeIn' to='/contact'>       
+            <Link className='link-home contact tab-hover tab fadeIn' to='/contact'>       
                 <Tab
                     img={Contact}
                     mainTitle='Contact'
-                    body='Ready to make something special? Me too!'
+                    body='Ready to make something special?'
                     tabClass='tab'
                 />
             </Link> 
-            <Link className='link-home experimental tab-no fadeIn' to=''>        
+            <Link className='link-home experimental tab fadeIn' to=''>        
                 <Tab
                     img={Learn}
                     mainTitle='Quote'

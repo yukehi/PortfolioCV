@@ -11,10 +11,10 @@ import {Link} from 'react-router-dom';
 
 const Contact = () => {
     useEffect(() => {
-        document.body.classList.add('background-contact')
+        document.body.classList.add('contact')
         document.body.classList.add('fadeIn')
         return () => {
-            document.body.classList.remove('background-contact');
+            document.body.classList.remove('contact');
             document.body.classList.remove('fadeIn');
         };
     }, []);
@@ -23,7 +23,7 @@ const Contact = () => {
     <Body
             mainTitle='Hello'
             upperUnderTitle='i will be Happy to collaborate'
-            midContant='if you just starting your website or app ,i will be glud to work toghter,you can contact me throw the fllowing'
+            midContant='If you are just starting out your site or app, I would love to work together, you can contact me through the following'
         />
         <hr/>
     <div className='card-box'>

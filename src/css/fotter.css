@@ -3,22 +3,27 @@
     display:flex;
     flex-direction: row;
     color: white;
-    justify-content: center;
+    justify-content: space-between;
     margin:5vw 2vw 5vw 2vw;
 }
 
 .copyright{
     height:15vh;
-    width:40vh;
+    width:40vw;
+    margin:3vw 0 0 0 ;
 }
 .icons{
     height:15vh;
-    width:30vh;
-    padding:0 0 0 40vh;
+    width:30vw;
+    padding:0 0 0 8vw;
+}
+.logo-copyright{
+    font-size:4vw;
+    
 }
 .icon{
     color:white;
-    margin-left:1vh;
+    margin-left:1vw;
 }
 .table{
     display:flex;
@@ -26,62 +31,70 @@
     justify-content: center
 }
 
-@media only screen and (max-width: 375px){
-    .icons{
-        padding:0% 0% 0% 12vw ;
+@media only screen and (max-width: 600px) {
+    .copyright{
+        height:15vh;
+        width:40vw;
+        margin:3vw 0 0 0 ;
     }
     .logo-copyright{
-        font-size:2vh;
+        font-size:4vw;
     }
-}
-@media only screen and (min-width: 393px) {
     .icons{
-        padding:0% 0% 0% 8vw ;
-    }
-    .logo-copyright{
-        font-size:2vh;
-    }
- }
- 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .icons{
-        padding:0% 0% 0% 4vw ;
-    }
-    .logo-copyright{
-        font-size:2vh;
-    }
- }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .icons{
-        padding:0% 0% 2vh 24vw ;
-    }
-    .logo-copyright{
-        font-size:2vh;
+        height:15vh;
+        width:30vw;
+        padding:0 0 0 8vw;
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .icons{
-        padding:0% 0% 2vh 25vw ;
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .copyright{
+        height:15vh;
+        width:40vw;
+        margin:1vw 0vw 0 0vw ;
     }
     .logo-copyright{
-        font-size:1.5vh;
+        font-size:2.5vw;
+    }
+    .icons{
+        position:relative;
+        left:0vw;
+        width: 20vw;
+        height:5vh;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .icons{
-        padding:0% 0% 2vh 10vw ;
+
+@media only screen and (min-width: 1024px ) {
+    .copyright{
+        height:15vh;
+        width:40vw;
+        margin:0vw 0vw 0 0vw ;
     }
     .logo-copyright{
-        font-size:1.85vh;
+        font-size:1.5vw;
+    }
+    .icons{
+        position:relative;
+        left:3vw;
+        width: 20vw;
+        height:5vh;
     }
 }
-@media only screen and (min-width: 2560px) {
-    
+
+@media only screen and (min-width: 1280px ) {
+    .copyright{
+        height:15vh;
+        width:40vw;
+        margin:0vw 0vw 0 0vw ;
+    }
+    .logo-copyright{
+        font-size:1.5vw;
+    }
+    .icons{
+        position:relative;
+        left:5vw;
+        width: 20vw;
+        height:5vh;
+    }
 }

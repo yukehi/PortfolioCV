@@ -16,11 +16,10 @@ const isActive =(history,path) =>{
 const Menu = ({history})=>{
 
     return(<div className="menu">
-    <div className="menu-box">
-    <div className='j'>
+    <div className='logo-wrapper'>
     <Logo/>
     </div>
-    <div className='b'>
+    <div className='nav-bar'>
     <ul className="nav">
     <li className="nav-item">
         <Link style={isActive(history,'/')} className="nav-link" to='/'><HomeIcon style={{ fontSize: 40 }} /></Link>
@@ -37,13 +36,9 @@ const Menu = ({history})=>{
     <li className="nav-item">
         <Link style={isActive(history,'/contact')} className="nav-link" to='/contact'><MailIcon style={{ fontSize: 40 }}/></Link>
     </li> 
-    
-    
-    
     </ul> 
+    </div>
     </div>  
-    </div>
-    </div>
     )
 }
 

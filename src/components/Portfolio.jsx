@@ -1,10 +1,10 @@
 import React,{useEffect} from 'react';
 import Menu from '../core/Mnue';
-import '../css/portfolio.css';
 import Body from '../core/Body';
 import Fotter from '../core/Fotter';
 import Table from '../core/Table';
 import '../css/fx.css';
+import '../css/portfolio.css';
 
 
 
@@ -38,10 +38,10 @@ const Portfolio = () => {
         ]
 
     useEffect(() => {
-        document.body.classList.add('background-portfolio')
+        document.body.classList.add('portfolio')
         document.body.classList.add('fadeIn')
         return () => {
-            document.body.classList.remove('background-portfolio');
+            document.body.classList.remove('portfolio');
             document.body.classList.remove('fadeIn');
         };
     }, []);

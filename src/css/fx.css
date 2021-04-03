@@ -43,3 +43,36 @@
         0% {opacity: 0;}
         100% {opacity: 1;}
         } 
+
+
+.home { 
+    background-color: #EDD45A;
+    }
+.about { 
+    background-color: #FBAC4B;
+    }
+.portfolio { 
+    background-color: #F35356;
+}
+.hobbies { 
+    background-color: #9ECC7B;
+    }
+.contact { 
+    background-color: #5E7EE8;
+    }
+.experimental { 
+    background-color: #DD65E2;
+}
+
+@media only screen and (max-width: 600px) {
+   
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (min-width: 1200px ) {
+    
+ }

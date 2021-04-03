@@ -15,27 +15,61 @@ const useStyles = makeStyles({
       
     },
     title: {
-      fontSize: 25,
+      fontSize: '8vw',
       fontFamily: 'Maven Pro',
-      '@media (max-width:600px)':{
-        fontSize: 20,
+      '@media only screen and (max-width: 600px)': {
+        fontSize: '5.25vw'
       },
-      '@media (min-width:600px)':{
-        fontSize: 25,
-      }
+      
+      '@media only screen and (min-width: 600px) and (max-width: 1200px)': {
+        fontSize: '4vw'  
+      },
+      
+      
+      '@media only screen and (min-width: 1200px )': {
+        fontSize: '2vw'
+       },
     },
     body:{
-        fontSize: 18,
+        fontSize: '3vw',
         fontFamily: 'Cantarell',
-        '@media (max-width:600px)':{
-          fontSize: 15,
+        '@media only screen and (max-width: 600px)': {
+          fontSize: '5vw'
         },
-        '@media (min-width:600px)':{
-          fontSize: 22,
-        }
+        
+        '@media only screen and (min-width: 600px) and (max-width: 1200px)': {
+          fontSize: '3vw'  
+        },
+        
+        
+        '@media only screen and (min-width: 1200px )': {
+          fontSize: '1.5vw'
+         },
+    },
+    Languages:{
+      fontSize: '5vw',
+      fontFamily: 'Cantarell',
+      margin:'2vw 0 2vw 0 ',
+      '@media only screen and (max-width: 600px)': {
+        fontSize: '4.5vw',
+        margin:'2vw 0 2vw 0 ',
+      },
+      
+      '@media only screen and (min-width: 600px) and (max-width: 1200px)': {
+        fontSize: '3vw',
+        margin:'1vw 0 1vw 0 ',  
+      },
+      
+      
+      '@media only screen and (min-width: 1200px )': {
+        fontSize: '1.5vw',
+        margin:'0.5vw 0 0.5vw 0 ',
+       },
     }
     
   });
+
+  
 
 const Table = (props) => {
   const classes = useStyles();
@@ -64,7 +98,7 @@ const Table = (props) => {
              <Typography className={classes.body}>
              {props.body}
              </Typography>
-             <Typography className={classes.title}>
+             <Typography className={classes.Languages}>
              {props.Languages}
              </Typography>
          </div>

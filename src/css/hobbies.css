@@ -1,12 +1,8 @@
-.background-hobbies{
-    background-color: #41cf41;
-    
-}
 
 .grid-container-hobbies {
     height: 100%;
-    text-align: center;
-    margin:2vh 10vh 2vh 10vh;
+    text-align: left;
+    margin:2vw 10vw 2vw 10vw;
     color:white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,89 +21,84 @@
 
 .v-contant { 
       grid-area: v-contant;
-      background-color: #6edb6e;
-      border: 2px solid #6edb6e;
+      background-color: #A9D189;
+      border: 2px solid #A9D189;
      }
 .h { grid-area: h; }
 .b-contant { 
       grid-area: b-contant;
-      background-color: #6edb6e;
-      border: 2px solid #6edb6e;
+      background-color: #A9D189;
+      border: 2px solid #A9D189;
      }
 .c { grid-area: c; }
 .c-contant { 
       grid-area: c-contant; 
-      background-color: #6edb6e;
-      border: 2px solid #6edb6e;
+      background-color: #A9D189;
+      border: 2px solid #A9D189;
     }
 .d { grid-area: d; }
 .d-contant {
        grid-area: d-contant; 
-       background-color: #6edb6e;
-       border: 2px solid #6edb6e;
+       background-color: #A9D189;
+       border: 2px solid #A9D189;
     }
 
 .img-scale{
   width: 100%;
 }
+.card-title{
+  font-size:6vw;
+}
+.card-content{
+  font-size:5vw;
+}
+.link-card{
+  text-decoration:none;
+  color:white;
+}
+.link-card:hover{
+  color: #333333;
+}
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
   .grid-container-hobbies{
     display:flex;
     flex-direction:column;
+    margin:2vw 10vw 2vw 10vw;
   }
-  
+  .card-title{
+    font-size:6vw;
+  }
+  .card-content{
+    font-size:5vw;
+  }
 }
 
-
-@media only screen and (min-width: 393px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .grid-container-hobbies{
     display:flex;
     flex-direction:column;
+    margin:2vw 5vw 2vw 5vw;
   }
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 600px){
-  .grid-container-hobbies{
-    display:flex;
-    flex-direction:column;
+  .card-title{
+    font-size:4vw;
   }
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px){
-  .grid-container-hobbies{
-    display:flex;
-    flex-direction:column;
+  .card-content{
+    font-size:2.5vw;
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px){
-  .grid-container-hobbies{
-    display:flex;
-    flex-direction:column;
-  }
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px)  {
+@media only screen and (min-width: 1200px ) {
   .grid-container-hobbies{
     display:grid;
     flex-direction:none;
+    margin:1vw 2vw 1vw 2vw;
   }
-}
-@media only screen and (min-width: 1440px){
-  .grid-container-hobbies{
-    display:grid;
-    flex-direction:none;
+  .card-title{
+    font-size:3vw;
   }
-}
-
-@media only screen and (min-width: 2560px) {
-  .grid-container-hobbies{
-    display:grid;
-    flex-direction:none;
+  .card-content{
+    font-size:2vw;
   }
-}
+ }

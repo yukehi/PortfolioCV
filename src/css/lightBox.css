@@ -1,0 +1,34 @@
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.img-gallery{
+    width:50px;
+    height:50px;
+    margin: 0.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-gallery{
+        width:40px;
+        height:40px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .img-gallery{
+        width:80px;
+        height:80px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px ) {
+    .img-gallery{
+        width:130px;
+        height:130px;
+    }
+ }

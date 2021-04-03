@@ -23,7 +23,8 @@
     font-size:3vw;
 }
 
-@media only screen and (max-width: 375px) {
+
+@media only screen and (max-width: 600px) {
     .main-title{
         font-size:12vw;
         
@@ -36,14 +37,11 @@
     }
     .container-body{
         margin:1vw 8vw 0 8vw;
-        text-align:left;
-        color:white;
+        
     }
-    
 }
 
-
-@media only screen and (min-width: 393px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
     .main-title{
         font-size:12vw;
         
@@ -55,72 +53,13 @@
         font-size:4.267vw;
     }
     .container-body{
-        margin:1vw 8vw 0 8vw;
-        text-align:left;
-        color:white;
-    }
-    
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .main-title{
-        font-size:12vw;
-        
-    }
-    .under-title{
-        font-size:6vw;
-    }
-    .contant{
-        font-size:4.267vw;
-    }
-    .container-body{
-        margin:1vw 8vw 0 8vw;
-        text-align:left;
-        color:white;
+        margin:1vw 3vw 0 3vw;
+       
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .main-title{
-        font-size:12vw;
-        
-    }
-    .under-title{
-        font-size:6vw;
-    }
-    .contant{
-        font-size:4.267vw;
-    }
-    .container-body{
-        margin:1vw 8vw 0 8vw;
-        text-align:left;
-        color:white;
-    }
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .main-title{
-        font-size:12vw;
-        
-    }
-    .under-title{
-        font-size:6vw;
-    }
-    .contant{
-        font-size:4.267vw;
-    }
-    .container-body{
-        margin:1vw 8vw 0 8vw;
-        text-align:left;
-        color:white;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px ) {
     .main-title{
         font-size:8vw;
         
@@ -132,23 +71,8 @@
         font-size:2.267vw;
     }
     .container-body{
-        margin:1vw 8vw 0 8vw;
+        margin:0vw 1vw 0 1vw;
         text-align:left;
         color:white;
     }
-}
-
-@media only screen and (min-width: 1440px) {
-    .container-body{
-        margin:1vw 8vw 0 8vw;
-        text-align:left;
-        color:white;
-    }
-}
-@media only screen and (min-width: 2560px) {
-    .container-body{
-        margin:1vw 1vw 0 1vw;
-        text-align:left;
-        color:white;
-    }
-}
+ }

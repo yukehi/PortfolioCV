@@ -7,7 +7,7 @@ const Tab = (props) => {
    
     return(
     
-    <div className={props.tabClass}>
+    <div className=''>
         <div className='img-info'>
                 <img className='avater' src={props.img} alt="avater" />
                 </div>
