@@ -22,25 +22,25 @@
 .v-contant { 
       grid-area: v-contant;
       background-color: #A9D189;
-      border: 2px solid #A9D189;
+      border: 2px outset white;
      }
 .h { grid-area: h; }
 .b-contant { 
       grid-area: b-contant;
       background-color: #A9D189;
-      border: 2px solid #A9D189;
+      border: 2px outset white;
      }
 .c { grid-area: c; }
 .c-contant { 
       grid-area: c-contant; 
       background-color: #A9D189;
-      border: 2px solid #A9D189;
+      border: 2px outset white;
     }
 .d { grid-area: d; }
 .d-contant {
        grid-area: d-contant; 
        background-color: #A9D189;
-       border: 2px solid #A9D189;
+       border: 2px outset white;
     }
 
 .img-scale{
@@ -59,7 +59,29 @@
 .link-card:hover{
   color: #333333;
 }
+.P-5{
+  padding:8vw;
+}
 
+.M-3{
+  padding:9vw 20vw 3vw 15vw;
+}
+.btn-box-discord{
+  margin: 6vw 0 0 0 ;
+  text-align:center;
+  items-align:center;
+}
+
+#discord{
+  width:auto;
+  height:60px;
+}
+.discord{
+  fill: white;
+}
+.discord:hover{
+  fill: #7289DA;
+}
 @media only screen and (max-width: 600px) {
   .grid-container-hobbies{
     display:flex;
@@ -71,6 +93,11 @@
   }
   .card-content{
     font-size:5vw;
+  }
+  .img-scale{
+    
+    width:150px;
+    height: auto;
   }
 }
 
@@ -86,6 +113,7 @@
   .card-content{
     font-size:2.5vw;
   }
+  
 }
 
 
@@ -93,7 +121,7 @@
   .grid-container-hobbies{
     display:grid;
     flex-direction:none;
-    margin:1vw 2vw 1vw 2vw;
+    margin:5vw 2vw 1vw 2vw;
   }
   .card-title{
     font-size:3vw;
@@ -101,4 +129,16 @@
   .card-content{
     font-size:2vw;
   }
+  .P-5{
+    padding:2vw;
+  }
  }
+
+ @media only screen and (min-width: 2560px ) {
+  .card-title{
+    font-size:2vw;
+  }
+  .card-content{
+    font-size:1.5vw;
+  }
+} 

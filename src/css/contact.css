@@ -7,36 +7,22 @@
     margin-bottom: 5vh;
 }
 
-.mail:active{
+.action:active{
     transform:scale(1.2)
 }
 
-.mail:hover{
+.action:hover{
     color: #333333;
 }
 
-.linkin:active{
-    transform:scale(1.2)
-}
 
-.linkin:hover{
-    color: #333333;
-}
-
-.github:active{
-    transform:scale(1.2)
-}
-
-.github:hover{
-    color: #333333;
-}
 
 hr{
     color:white;
 }
 
 .btn-outline-light:hover{
-    color: #333333;
+    color: #5E7EE8;
     
 }
 
@@ -49,3 +35,32 @@ hr{
     justify-content: center;
     margin-top:5vh;
 }
+.border{
+    margin-top:5vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-box{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top:5vh;
+        margin-bottom: 5vh;
+    }
+ }
+ 
+ @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .card-box{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top:5vh;
+        margin-bottom: 5vh;
+    }
+ }
+ 
+ 
+ @media only screen and (min-width: 1200px ) {
+    
+  }
+ 

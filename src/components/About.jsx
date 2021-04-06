@@ -2,6 +2,7 @@ import React ,{useEffect} from 'react';
 import Menu from '../core/Mnue';
 import Body from '../core/Body';
 import Fotter from '../core/Fotter';
+import {Link} from 'react-router-dom';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
@@ -16,7 +17,7 @@ const useStyles = makeStyles({
       backgroundColor:'transparent',
       margin:'3vw 1vw 3vw 1vw',
       color:'white',
-      border:' 2px solid white',
+      border:' 2px outset white',
       
       
     },
@@ -66,11 +67,11 @@ const About = () => {
         <Menu/>
         
         <Body
-            mainTitle='Root'
-            upperUnderTitle='reason why I started with programming'
-            midContant='Five months ago I made a decision to study programming, I was told that learning programming would be difficult for me because of my dyslexia and attention deficit disorder, but after I started soon I fell in love with code writing and development, from initial ideas to application, it was not easy at all. In self learning. Obviously it is impossible to learn everything in such a short time, but I was able to establish the initial skills, and mastering some of the latest technologies, my conclusion regarding programming is that anyone can learn it, but must be aware that learning never ends.'
+            mainTitle='As for me'
+            upperUnderTitle='The root reason why I started programming'
+            midContant='Five months ago I had an urge to create an idea that came to my life and I made a decision to learn programming, I was told that learning programming would be difficult for me because of dyslexia and attention deficit disorder, but after I started, I quickly fell in love with code writing and development, from initial ideas to implementation. In self-study and mentoring on the part. Obviously it is impossible to learn everything in such a short time, but I was able to establish my initial skills, and master some of the latest technologies, my conclusion about programming is that anyone can learn it, but should be aware that learning never ends.'
         />
-        <div className='img-seed-box'><img className='seed-img' src={Seed} alt="Seed"/></div>
+        
         <div className="table fadeIn">
            <Card className={classes.root} variant="outlined">
            <CardContent>
@@ -78,7 +79,7 @@ const About = () => {
             Philosophy
             </Typography>
             <Typography className={classes.body}>
-            Everything is possible to solve, all we need is the right minds, and the creative collaboration between them, and the ability of self-learning 
+            Everything is possible to solve, all we need is collaboration of creative and problem solving mindsets, and the ability of learning from every experience, bad or good.
             </Typography>
             
             
@@ -131,6 +132,10 @@ const About = () => {
            </CardContent>
            </Card>
 
+        </div>
+        <div className='img-seed-box'><img className='seed-img' src={Seed} alt="Seed"/></div>
+        <div className='btn-box-contact'>
+            <Link className='link bold btn btn-outline-about' to='/portfolio'><h4 className='btn-text'>View Portfolio</h4></Link>
         </div>
         <Fotter/>
         

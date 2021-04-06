@@ -9,7 +9,7 @@ const useStyles = makeStyles({
     root: {
       minWidth: 300,
       backgroundColor:'transparent',
-      margin:'3% 3% 3% 3%',
+      margin:'5vw 3vw 3vw 3vw',
       color:'white',
       border:' 2px outset white'
       
@@ -18,7 +18,7 @@ const useStyles = makeStyles({
       fontSize: '8vw',
       fontFamily: 'Maven Pro',
       '@media only screen and (max-width: 600px)': {
-        fontSize: '5.25vw'
+        fontSize: '4.5vw'
       },
       
       '@media only screen and (min-width: 600px) and (max-width: 1200px)': {
@@ -34,7 +34,7 @@ const useStyles = makeStyles({
         fontSize: '3vw',
         fontFamily: 'Cantarell',
         '@media only screen and (max-width: 600px)': {
-          fontSize: '5vw'
+          fontSize: '3.6vw'
         },
         
         '@media only screen and (min-width: 600px) and (max-width: 1200px)': {
@@ -48,10 +48,10 @@ const useStyles = makeStyles({
     },
     Languages:{
       fontSize: '5vw',
-      fontFamily: 'Cantarell',
+      fontFamily: 'Maven Pro',
       margin:'2vw 0 2vw 0 ',
       '@media only screen and (max-width: 600px)': {
-        fontSize: '4.5vw',
+        fontSize: '4.0vw',
         margin:'2vw 0 2vw 0 ',
       },
       

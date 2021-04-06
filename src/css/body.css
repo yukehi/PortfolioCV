@@ -36,7 +36,7 @@
         font-size:4.267vw;
     }
     .container-body{
-        margin:1vw 8vw 0 8vw;
+        margin:4vw 8vw 0 8vw;
         
     }
 }
@@ -53,7 +53,7 @@
         font-size:4.267vw;
     }
     .container-body{
-        margin:1vw 3vw 0 3vw;
+        margin:2vw 3vw 0 3vw;
        
     }
 }
@@ -61,17 +61,19 @@
 
 @media only screen and (min-width: 1200px ) {
     .main-title{
-        font-size:8vw;
+        font-size:5vw;
         
     }
     .under-title{
-        font-size:4vw;
+        font-size:3vw;
+        margin:0.5vw 0vw 0 0vw;
     }
     .contant{
-        font-size:2.267vw;
+        font-size:1.818vw;
+        margin:1vw 0vw 0 0vw;
     }
     .container-body{
-        margin:0vw 1vw 0 1vw;
+        margin:3vw 1vw 0 1vw;
         text-align:left;
         color:white;
     }
