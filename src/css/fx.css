@@ -46,22 +46,22 @@
 
 
 .home { 
-    background-color: #EDD45A;
+    background-color: #F5E593;
     }
 .about { 
-    background-color: #FBAC4B;
+    background-color: #FDCA8B;
     }
 .portfolio { 
-    background-color: #F35356;
+    background-color: #F99092;
 }
 .hobbies { 
-    background-color: #9ECC7B;
+    background-color: #C0E3A6;
     }
 .contact { 
-    background-color: #5E7EE8;
+    background-color: #96ACF2;
     }
 .experimental { 
-    background-color: #DD65E2;
+    background-color: #EC99EF;
 }
 
 @media only screen and (max-width: 600px) {

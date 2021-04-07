@@ -1,6 +1,5 @@
 .background-portfolio{
     background-color: #f33232;
-    
 }
 
 .upper-table{
@@ -17,27 +16,36 @@
 .grid-container-portfolio {
     display:flex;
     flex-direction:column;
-  }
+}
+
 .body { grid-area: body; }
+
 .btn-box {
     grid-area: btn-box; 
     display:flex;
     justify-content:left;
     margin-top:1.5vw;
-    }
+}
 
 .btn{
     border-radius:15vh;
-    
 }
+
 .btn-outline-portfolio{
     color:white;
     border-color:white;
 }
+
 .btn-outline-portfolio:hover{
     color:#F35356;
     background-color:white;
+    outline-style: none;
 }
+
+.btn-outline-portfolio:active{
+    transform:scale(0.9);
+}
+
 @media only screen and (max-width: 600px) {
    .btn-box{
         margin-top:1.5vw;
@@ -55,5 +63,5 @@
     .btn-box{
         margin-top:0.5vw;
    }
- }
+}
 

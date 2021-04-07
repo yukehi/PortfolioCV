@@ -21,25 +21,25 @@
 
 .v-contant { 
       grid-area: v-contant;
-      background-color: #A9D189;
+      background-color: #BFDCA7;
       border: 2px outset white;
      }
 .h { grid-area: h; }
 .b-contant { 
       grid-area: b-contant;
-      background-color: #A9D189;
+      background-color: #BFDCA7;
       border: 2px outset white;
      }
 .c { grid-area: c; }
 .c-contant { 
       grid-area: c-contant; 
-      background-color: #A9D189;
+      background-color: #BFDCA7;
       border: 2px outset white;
     }
 .d { grid-area: d; }
 .d-contant {
        grid-area: d-contant; 
-       background-color: #A9D189;
+       background-color: #BFDCA7;
        border: 2px outset white;
     }
 

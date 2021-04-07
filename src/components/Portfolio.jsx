@@ -3,7 +3,6 @@ import Menu from '../core/Mnue';
 import Body from '../core/Body';
 import Fotter from '../core/Fotter';
 import Table from '../core/Table';
-import {Link} from 'react-router-dom';
 import '../css/fx.css';
 import '../css/portfolio.css';
 
@@ -70,8 +69,7 @@ const Portfolio = () => {
         <div className="btn-title bold"><h4 className="h4">Let's work together</h4></div>
         
         <div className='btn-box-contact'>
-            
-            <Link className='link bold btn btn-outline-portfolio' to='/contact'><h4 className='btn-text'>Contact Me</h4></Link>
+            <a className='link bold btn btn-outline-portfolio' href='mailto:3124surf@gmail.com'><h4 className='btn-text'>Contact Me</h4></a>
         </div>
     <Fotter/>
     </div>)
