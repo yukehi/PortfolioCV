@@ -3,9 +3,7 @@
     height: auto;
     border-radius:150vh;
 }
-.avater:hover{
-    transform: scale(1.35)
-}
+
 .link-home{
     text-decoration:none;
     color:white;
@@ -17,7 +15,7 @@
 
 a:hover{
     color:white;
-    /* transform: scale(0.95); */
+    
 }
 
 .img-info{

@@ -30,7 +30,9 @@ body{
     width:100%;
     display:block;
 }
-
+.tab:hover .avater{
+    transform: scale(1.35)
+}
 .tab-hover:hover {
     background-color:#333333;    
     color:white;

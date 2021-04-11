@@ -22,14 +22,14 @@ const Home = () => {
     return(<>
         <div className='dashbord '>
         <div className="grid-container">
-            <Link className='link-home home tab fadeIn' to=''>
+            <div className='link-home home tab fadeIn'>
                 <Tab
                     img={profile}
                     mainTitle='Aleksey Zgeria'
                     body='Web Developer'
                     tabClass='tab-no'
                 />
-            </Link>
+            </div>
             <Link className='link-home about tab tab-hover fadeIn' to='/about'>
                 <Tab
                     img={About}
@@ -63,14 +63,14 @@ const Home = () => {
                     tabClass='tab'
                 />
             </Link> 
-            <Link className='link-home experimental tab fadeIn' to=''>        
+            <div className='link-home experimental tab fadeIn' to=''>        
                 <Tab
                     img={Learn}
-                    mainTitle='Quote'
+                    mainTitle='Mantra'
                     body='"Learn from every experience"'
                     tabClass='tab-no'
                 />
-            </Link> 
+            </div> 
      </div>
      </div>
     

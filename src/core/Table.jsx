@@ -27,7 +27,7 @@ const useStyles = makeStyles({
       
       
       '@media only screen and (min-width: 1200px )': {
-        fontSize: '2vw'
+        fontSize: '1.5vw'
        },
     },
     body:{
@@ -43,7 +43,7 @@ const useStyles = makeStyles({
         
         
         '@media only screen and (min-width: 1200px )': {
-          fontSize: '1.5vw'
+          fontSize: '1.0vw'
          },
     },
     Languages:{
