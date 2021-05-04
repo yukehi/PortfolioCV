@@ -12,21 +12,21 @@ import '../css/portfolio.css';
 const Portfolio = () => {
     const body = [
         {name:'Repeat'
-        ,body:' That shows the emotional attitude regarding the content you upload,it was challenged to map and build the model for the emotions to the colors, in each choice of color and emotion there is a back calculation that "predicts" the emotion you feel towards the same content, even when the user responds to the content he affects the initial emotion of the content thus creating the content to be dynamic.',
+        ,body:'The main challenge was to map and build a model that matches between emotions and the colors. In each choice of color and emotion there is a back calculation that "predicts" the emotion you feel towards the same content, even when the user responds to the content it affects the initial emotion of the content thus creating the content to be dynamic.',
         url:'https://itsrepeat.com/',type:'Web application',
         title:'Social platform',Languages:'Html-Css-Javascript-React-Express-Mongodb',
         },
         {name:'Emotional Calculator'
-        ,body:"By using color and emotion I analyzed the emotion that a person feels in the present moment, by choosing color and emotion he gets an answer to what he is feeling right now, my curiosity led me to check and research about how emotion affects each other with color, I based on Robert Fluchik's research , But unfortunately his theory was not proven I found other sources and was able to run the model, of course it is not based on in-depth research and is still in the stage of theory.",
+        ,body:"I was curious to research the connection between emotions and colors and how they affect each other. Initially I based the research of Robert Fluchik's wheel of emotions, but unfortunately his theory was not proven. I then found other sources and was able to develop the model. Of course it is not based on in-depth research and this theory is still in the early stages.By using color and emotion I analyzed the emotion that a person feels in the present moment. The user needs to choose emotion and the color and the calculator tells him how he feels according to his input.",
         url:'https://hidden-falls-58987.herokuapp.com/',
         type:'Web application',title:'Calculates the emotion you feel',Languages:'Html-Css-Javascript-React-Express',
         },
-        {name:'To do list',body:'In creating the application, I used Express for the first time, there was a difficulty in starting the integration between the database, after several attempts I was able to create the connection and save the data, you can create new lists and save the lists, by entering a new name in the html line.',
+        {name:'To do list',body:'In creating the application, I used Express for the first time. I had a difficulty in starting the integration between the database of mongodb and express. After several attempts I was able to create the connection and save the data.Inside this application  you can create new lists and save the lists, by entering a new name in the html line.',
         url:'https://salty-tundra-05974.herokuapp.com/',
         type:'Web application',title:'Stick to your tasks',Languages:'Html-Css-Javascript-Express-Mongodb',
         },
         {name:'RPSSL',
-        body:'The first time I built the game used as a static site, but after learning react, I rebuilt it according to the programming principles in react, the game has five possibilities for combat, and of course a board of rules describing who wins whom, I really enjoyed building it, enjoy.',
+        body:'The first time I built the game I used a static site, but after learning React, I decided to rebuild it according to the programming principles in React. The game has five possibilities for combat, and a board of rules describing who wins whom. I really enjoyed building it.',
         url:'https://mysterious-shore-92890.herokuapp.com/',
         type:'Web application',title:'A modern game of stone and paper and scissors',Languages:'Html-Css-Javascript-React-Express',
         },
@@ -49,8 +49,9 @@ const Portfolio = () => {
         <Menu/>
         <Body
             mainTitle='My Path'
-            upperUnderTitle='The Journey begins with a simple problem and progresses into idea'
-            midContant='While learning I learned the basics of programming, client structure and back end. I progressed to building an API, to my applications, to integrate between the client and the back end and thus filled myself with the full picture of web development, a complex and interesting process that gave me an opportunity to experience the full development, I relied mainly on self-thinking and examples I found.'
+            upperUnderTitle='The journey begins with a simple problem and progresses into idea'
+            midContant="While studying I learned the basics of programming, client structure and back end. I progressed into building an API to my applications in order to integrate between the client and the back end, I relied mainly on self-thinking and examples I found.
+                        It's a complex and interesting process that gave me an opportunity to experience the full development of building an application and hone my new  skills."
         />
         <div className="table-portfolio fadeIn">
         {body.map((contant, i) => {
