@@ -23,11 +23,11 @@ const Contact = () => {
     <Body
             mainTitle='Hello'
             upperUnderTitle='i will be Happy to collaborate'
-            midContant='If you are just starting out your site or app, I would love to work together, you can contact me through the following'
+            midContant='If you are just starting out your site or app, or if you already have a product that requires improvement and maintenance, I would love to work together, you can contact me through the following'
         />
         <hr className='border'/>
     <div className='card-box'>
-        <div className='icon action' ><a className='icon action' href='mailto:3124surf@gmail.com'><MailOutlineIcon style={{ fontSize: '8vh' }}/></a></div>
+        <div className='icon action' ><a className='icon action' href='mailto:alekseyzgeria@gmail.com'><MailOutlineIcon style={{ fontSize: '8vh' }}/></a></div>
         <div className='icon action' ><a className='icon action' href='https://www.linkedin.com/in/aleksey-zgeria/'><LinkedInIcon style={{ fontSize: '8vh' }}/></a></div>
         <div className='icon action'><a className='icon action' href='https://github.com/yukehi'><GitHubIcon style={{ fontSize: '8vh' }}/></a></div>
     </div>

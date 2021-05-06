@@ -109,7 +109,7 @@ const About = () => {
            <Card className={classes.root} variant="outlined">
            <CardContent>
             <Typography className={classes.title}>
-            Framework
+            Framework and Tools
             </Typography>
             <List >
             <Typography className={classes.body}>
