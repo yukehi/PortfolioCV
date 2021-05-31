@@ -6,12 +6,15 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Hobbies from './components/Hobbies';
+import ScrollToTop from './core/ScrollToTop';
+
 const MainRouter = () => {
 
     return(
         <div>
             {/* <Menu/> */}
             <Suspense fallback={<Loading/>}>
+            <ScrollToTop>
             <Switch>
             <Route exact path='/' component={Home}  ></Route>
             <Route exact path='/contact' component={Contact}  ></Route> 
@@ -19,6 +22,7 @@ const MainRouter = () => {
             <Route exact path='/hobbies' component={Hobbies}  ></Route>   
             <Route exact path='/about' component={About}  ></Route> 
             </Switch>
+            </ScrollToTop>
             </Suspense>
         </div>
     )
