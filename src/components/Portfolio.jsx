@@ -13,7 +13,7 @@ const Portfolio = () => {
     const body = [
         {name:'Repeat'
         ,body:'The main challenge was to map and build a model that matches between emotions and the colors. In each choice of color and emotion there is an algorithm calculating and "predicting" the emotion you feel towards that content, even when the user responds to the content it affects the initial emotion of the content thus making the content truly dynamic.',
-        url:'https://itsrepeat.com/',type:'Web application',
+        url:'https://repeat-clinet.vercel.app',type:'Web application',
         title:'Social platform',Languages:'Html-Css-Javascript-React-Express-Mongodb',
         },
         {name:'Emotional Calculator'
