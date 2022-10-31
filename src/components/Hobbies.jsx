@@ -13,7 +13,7 @@ const Hobbies = () => {
     const links = ['https://www.youtube.com/watch?v=aOadxZBsPiA','https://www.youtube.com/watch?v=0E44DClsX5Q','https://www.youtube.com/watch?v=7O21Z6vgtmY',
                   'https://www.youtube.com/watch?v=qqEpSOFDXGA','https://www.retrogames.cz/play_1412-NES.php','https://www.youtube.com/watch?v=bg21_FkPLEk',
                   'https://www.youtube.com/watch?v=XqdXH1l0zbY&t=15s','https://www.youtube.com/watch?v=8930G961un4&t=69s','https://en.wikipedia.org/wiki/The_Alchemist_(novel)',
-                  'https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind','https://en.wikipedia.org/wiki/1Q84','https://en.wikipedia.org/wiki/12_Rules_for_Life'
+                  'https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind','https://en.wikipedia.org/wiki/1Q84','https://en.wikipedia.org/wiki/12_Rules_for_Life','https://open.spotify.com/show/7FGOcmjnu0dGCXvXTt2irX?si=012ee1a6c4fe46e4'
                 ]
     useEffect(() => {
         document.body.classList.add('hobbies')
@@ -53,7 +53,8 @@ const Hobbies = () => {
         </div>
         <div className="d P-5 M-3"><img className='img-scale' src={Books} alt='Video'/></div>
         <div className="d-contant P-5">
-        <h1 className='bold card-title'>Books I Read</h1>
+        <h1 className='bold card-title'>check it</h1>
+        <a className='link-card' href={links[12]} target='_blank' rel="noreferrer"><h4 className='body-style card-content'>podcast frq56</h4></a>
         <a className='link-card' href={links[8]} target='_blank' rel="noreferrer"><h4 className='body-style card-content'>The Alchemist</h4></a>
         <a className='link-card' href={links[9]} target='_blank' rel="noreferrer"><h4 className='body-style card-content'>Sapiens</h4></a>
         <a className='link-card' href={links[10]} target='_blank' rel="noreferrer"><h4 className='body-style card-content'>1Q84</h4></a>
