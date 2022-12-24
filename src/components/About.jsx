@@ -69,7 +69,7 @@ const About = () => {
         <Body
             mainTitle='My story'
             upperUnderTitle='The root reason I started programming'
-            midContant='A year ago I had an idea that I was passionate to realize. This was the turning point for me and I made the decision to learn programming. I was told that learning programming would be difficult for me because of my dyslexia and attention deficit disorder, but I was willing to take the challenge. By self-learning and mentorship, I quickly fell in love with code writing, problem solving and the development of initial ideas into the implementation. Obviously it is impossible to learn everything in such a short time, but I was able to establish initial skills, and master some of the latest technologies. My conclusion about programming is that anyone can learn it, but should be aware that the learning never ends.'
+            midContant='Two year ago I had an idea that I was passionate to realize. This was the turning point for me and I made the decision to learn programming. I was told that learning programming would be difficult for me because of my dyslexia and attention deficit disorder, but I was willing to take the challenge. By self-learning and mentorship, I quickly fell in love with code writing, problem solving and the development of initial ideas into the implementation. Obviously it is impossible to learn everything in such a short time, but I was able to establish initial skills, and master some of the latest technologies. My conclusion about programming is that anyone can learn it, but should be aware that the learning never ends.'
         />
         
         <div className="table fadeIn">
@@ -93,10 +93,10 @@ const About = () => {
             </Typography>
             <List>
             <Typography className={classes.body}>
-            Html
+            Html/Css
             </Typography>
             <Typography className={classes.body}>
-            Css
+            python/C++
             </Typography>
             <Typography className={classes.body}>
             Javascript
@@ -116,7 +116,7 @@ const About = () => {
             Node/Express
             </Typography>
             <Typography className={classes.body}>
-            React
+            React/React-Native
             </Typography>
             <Typography className={classes.body}>
             Bootstrap
