@@ -11,11 +11,11 @@ import '../css/portfolio.css';
 
 const Portfolio = () => {
     const body = [
-        {name:'Repeat'
-        ,body:'The main challenge was to map and build a model that matches between emotions and the colors. In each choice of color and emotion there is an algorithm calculating and "predicting" the emotion you feel towards that content, even when the user responds to the content it affects the initial emotion of the content thus making the content truly dynamic.',
-        url:'https://repeat-clinet.vercel.app',type:'Web application',
-        title:'Social platform',Languages:'Html-Css-Javascript-React-Express-Mongodb',
-        },
+        // {name:'Repeat'
+        // ,body:'The main challenge was to map and build a model that matches between emotions and the colors. In each choice of color and emotion there is an algorithm calculating and "predicting" the emotion you feel towards that content, even when the user responds to the content it affects the initial emotion of the content thus making the content truly dynamic.',
+        // url:'https://repeat-clinet.vercel.app',type:'Web application',
+        // title:'Social platform',Languages:'Html-Css-Javascript-React-Express-Mongodb',
+        // },
         {name:'Emotional Calculator'
         ,body:"I was curious to research the connection between emotions and colors and how they affect each other. Initially I based the research of Robert Fluchik's wheel of emotions, but unfortunately his theory was not proven. I then found other sources and was able to develop the model. Of course it is not based on in-depth research and this theory is still in the early stages.By using color and emotion I analyzed the emotion that a person feels in the present moment. The user needs to choose emotion and the color and the calculator tells him how he feels according to his input.",
         url:'https://hidden-falls-58987.herokuapp.com/',
@@ -34,6 +34,26 @@ const Portfolio = () => {
         body:'Building the game I really enjoyed, connecting the sounds and creating a design functionality that will let the user more easily remember the pattern displayed in the game.',
         url:'https://evening-taiga-70436.herokuapp.com/',
         type:'Web application',title:'A retro game of our childhood',Languages:'Html-Css-Javascript-React-Express'
+        },
+        {name:'Ting Dog',
+        body:'building a responsive landing page for a tinder for dogs , just for the funny idea of it .',
+        url:'https://yukehi.github.io/Tindog--startup-/',
+        type:'Web site',title:'App for dog dting',Languages:'Html-Css-Javascript'
+        },
+        {name:'Chet App',
+        body:'building a responsive landing page for chat applcition .',
+        url:'https://yukehi.github.io/chat-app/',
+        type:'Web site',title:'App for cheting',Languages:'Html-Css-Javascript'
+        },
+        {name:'Community App',
+        body:'building a responsive landing page layout  .',
+        url:'https://yukehi.github.io/chat-app/',
+        type:'Web site',title:'Community App',Languages:'Html-Css-Javascript'
+        },
+        {name:'Artist',
+        body:'building a responsive landing page for an a artist.',
+        url:'https://yukehi.github.io/olfemio-landing-page/',
+        type:'Web site',title:'Artist page',Languages:'Html-Css-Javascript'
         },
         ]
 
